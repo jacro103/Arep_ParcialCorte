@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Example</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<h1>Form with GET</h1>
+<form action="/factor">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="value" value="10"><br><br>
+    <input type="button" value="Submit" onclick="loadGetMsg()">
+</form>
+<div id="getrespmsg"></div>
+<form action="/primo">
+    <label for="names">Name:</label><br>
+    <input type="text" id="names" name="value" value="100"><br><br>
+    <input type="button" value="Submit" onclick="load()">
+</form>
+<div id="getrest"></div>
+
+<script>
+            function loadGetMsg() {
+                let nameVar = document.getElementById("name").value;
+                const xhttp = new XMLHttpRequest();
+                xhttp.onload = function() {
+                    document.getElementById("getrespmsg").innerHTML =
+                    this.responseText;
+                }
+                xhttp.open("GET", "/factor?value="+nameVar);
+                xhttp.send();
+            }
+        </script>
+<script>
+            function load() {
+                let nameVar = document.getElementById("names").value;
+                const xhttp = new XMLHttpRequest();
+                xhttp.onload = function() {
+                    document.getElementById("getrest").innerHTML =
+                    this.responseText;
+                }
+                xhttp.open("GET", "/primo?value="+nameVar);
+                xhttp.send();
+            }
+        </script>
+</body>
+</html>
