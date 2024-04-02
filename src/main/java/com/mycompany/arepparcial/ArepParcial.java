@@ -39,11 +39,12 @@ public class ArepParcial {
         });
     }
 
+     
     private static int getPort() {
         if (System.getenv("PORT") != null) {
             return Integer.parseInt(System.getenv("PORT"));
         }
-        return 46000;
+        return 5000;
     }
 
 
