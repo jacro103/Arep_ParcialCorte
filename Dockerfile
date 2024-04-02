@@ -2,9 +2,9 @@ FROM openjdk:8
 
 WORKDIR /usrapp/bin
 
-ENV PORT 5000
+ENV PORT 6000
 
 COPY /target/classes /usrapp/bin/classes
 COPY /target/dependency /usrapp/bin/dependency
 
-CMD ["java","-cp","./classes:./dependency/*","com.mycompany.arepparcial.ArepParcial"]
+CMD ["java","-cp","./classes:./dependency/*","com.mycompany.parcialarep.ParcialAREP"]
