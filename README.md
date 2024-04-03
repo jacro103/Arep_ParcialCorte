@@ -38,8 +38,15 @@ java -cp "target/classes:target/dependency/*" com.mycompany.arepparcial.ArepParc
 
 Encontrara una carpeta de imagenes donde estan  laspruebas del lanzamiento en ec2 y localhost
 
+Pruebas hechas en la hora del parcial
 ![](./image/a.png)<br>
 ![](./image/b.png)<br>
+
+Pruebas despues del parcial
+![](./image/c.png)<br>
+![](./image/d.png)<br>
+![](./image/e.png)<br>
+![](./image/f.png)<br>
 
 ##Autor
 Jose Alejandro Correa Rodriguez
