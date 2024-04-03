@@ -38,8 +38,8 @@ java -cp "target/classes:target/dependency/*" com.mycompany.arepparcial.ArepParc
 
 Encontrara una carpeta de imagenes donde estan  laspruebas del lanzamiento en ec2 y localhost
 
-![image](a.png)
-![image](b.png)
+![](./image/a.png)<br>
+![](./image/b.png)<br>
 
 ##Autor
 Jose Alejandro Correa Rodriguez
@@ -54,6 +54,8 @@ Jose Alejandro Correa Rodriguez
 
 ## Video
 [VIDEO  AWS que se hizo en la hora del parcial](https://pruebacorreoescuelaingeduco-my.sharepoint.com/:v:/g/personal/jose_correa-r_mail_escuelaing_edu_co/ERR8FkBA3WRIkYRi5p6FjuQBL5wE3m_ovp5jpgA83qdy_Q?e=fcDWvA&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+[video en casa antes de media noche](https://pruebacorreoescuelaingeduco-my.sharepoint.com/:v:/g/personal/jose_correa-r_mail_escuelaing_edu_co/ER7T-siUClRClZXnlSsvkZMBRsKRBKAXQDnp3gnT4X6fNg?e=3K0qHy&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 
 
